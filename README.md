@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+DOM is Document Object Model. It is a tree structure that objests represent parts of the document. So DOM is the logic of the tree. 
+
 2. What is an event?
+
+Events are actions that happen when a user fires off a line of code or if that tree structure naturally changes an element of the DOM tree. 
 
 3. What is an event listener?
 
+an event listener is is a part of code that is looking for an action to happen so that it may run the new action if completed or triggered. 
+
 4. Why would we convert a NodeList into an Array?
 
+Because we can utilize the data of an array. 
+
 5. What is a component?
+
+Its resueable code that is great for keping code dry but repeating a process several times. Keeps code very DRY. 
 
 ### Git Set up
 
