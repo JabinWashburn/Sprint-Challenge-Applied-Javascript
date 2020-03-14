@@ -34,4 +34,3 @@ function TopicTab (data){
     return topic;
 } 
     const newTab = document.querySelector('.topic');
-
