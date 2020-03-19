@@ -51,12 +51,14 @@ function Card (data){
 
     headline.textContent = data.headline;
     imgSrc.src = data.authorPhoto;
+    name.textContent = data.authorName;
 
-    headline.append(card);
-    author.append(card);
-    imgContainer.append(author);
-    imgSrc.append(imgContainer);
-    name.append(author);
+    card.append(headline);
+    card.append(author);
+    author.append(imgContainer);
+    author.append(name);
+    imgContainer.append(imgSrc);
+    
 
 
 
