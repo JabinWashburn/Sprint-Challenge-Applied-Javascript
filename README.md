@@ -30,30 +30,40 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+DOM is Document Object Model. It is a tree structure that objests represent parts of the document. So DOM is the logic of the tree. 
+
 2. What is an event?
+
+Events are actions that happen when a user fires off a line of code or if that tree structure naturally changes an element of the DOM tree. 
 
 3. What is an event listener?
 
+an event listener is is a part of code that is looking for an action to happen so that it may run the new action if completed or triggered. 
+
 4. Why would we convert a NodeList into an Array?
+
+Because we can utilize the data of an array. 
 
 5. What is a component?
 
+Its resueable code that is great for keping code dry but repeating a process several times. Keeps code very DRY. 
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [x] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-* [ ] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
+* [x] Look through the HTML code and familiarize yourself with the different sections. Some of them already exist, but some need to be filled in. DO NOT add any code to the HTML file itself.
 
-* [ ] Following the instructions in the `Header/index.js` file, create the Header component. 
+* [x] Following the instructions in the `Header/index.js` file, create the Header component. 
 
-* [ ] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
+* [x] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
 * [ ] Following the instructions in the `Cards/index.js` file, create individual Cards components.
 
